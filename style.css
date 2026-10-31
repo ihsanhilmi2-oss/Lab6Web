@@ -1,0 +1,202 @@
+
+/* Latihan 1 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    color: #173f75;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Latihan 2 */
+button {
+    background-color: #3478c8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #173f75;
+}
+
+/* Latihan 3 */
+.highlight {
+    color: #173f75;
+    background-color: #e6f1ff;
+    border-left: 4px solid #3478c8;
+    padding: 12px;
+}
+
+.teks-besar {
+    font-size: 1.4rem;
+}
+
+
+/* LATIHAN 4 - Penghitung Karakter */
+
+input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+
+/* LATIHAN 5 - Validasi Form Pendaftaran */
+
+#formPendaftaran {
+    margin-top: 15px;
+    max-width: 350px;
+}
+
+#formPendaftaran label {
+    display: block;
+    margin-top: 12px;
+}
+
+#formPendaftaran input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#formPendaftaran button {
+    margin-top: 15px;
+}
+
+#pesanForm {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/* LATIHAN 6 - To-do List */
+
+#inputTugas {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#tambahTugas {
+    margin-left: 5px;
+}
+
+#daftarTugas {
+    padding-left: 25px;
+}
+
+#daftarTugas li {
+    margin-bottom: 10px;
+}
+
+.selesai span {
+    text-decoration: line-through;
+    color: #687386;
+}
+
+#pesanTugas {
+    font-weight: bold;
+}
+
+
+
+/* MINI PROJECT - Form Pendaftaran Workshop */
+
+#miniProject {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9fbff;
+}
+
+#miniProject h2 {
+    color: #173f75;
+    text-align: center;
+}
+
+#formWorkshop label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#formWorkshop input,
+#formWorkshop select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formWorkshop button {
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+#pilihanSesi,
+#pesanWorkshop {
+    font-weight: bold;
+}
+
+#pesanWorkshop {
+    margin-top: 20px;
+}
+
+/* Tampilan mobile */
+@media (max-width: 600px) {
+    #miniProject {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    #formWorkshop button {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+
+/* Eksperimen Mandiri 1 - Tombol Hapus */
+
+.hapusTugas {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.hapusTugas:hover {
+    background-color: #b02a37;
+}
+
+
+/* EKSPERIMEN MANDIRI 4 */
+
+.sembunyi {
+    display: none;
+}
